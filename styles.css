@@ -3,8 +3,15 @@ h1 {
   font-family: 'Potta One', cursive;
 }
 
+div {
+  width: 500px;
+  padding: 50px;
+  margin: 40px;
+  background-color: lightgrey;
+}
+
 li {
-  font-family: 'Roboto', cursive;
+  font-family: 'Roboto';
 }
 
 #ingredients li {
@@ -16,6 +23,28 @@ li {
   color: #999;
 }
 
-#equipment li:nth-child(3) {
-  color: red;
+#ingredients li:nth-child(4) {
+  color: blueviolet;
+}
+
+#equipment li:nth-child(5) {
+  color: blueviolet;
+}
+
+#directions {
+  font-family: Roboto;
+}
+
+#notes {
+  font-family: Roboto;
+}
+
+body {
+  border-style: dot-dash;
+  border-top: 5px;
+  border-bottom: 5px;
+  border-left: 10px solid #900;
+  border-right: 10px solid #900;
+  box-sizing: border-box;
+  cursor: url(3work.ani);
 }
