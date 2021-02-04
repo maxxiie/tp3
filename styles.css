@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+h1 {
+  font-family: 'Potta One', cursive;
+}
+
+li {
+  font-family: 'Roboto', cursive;
+}
+
+#ingredients li {
+  font-family: Roboto;
+}
+
+#ingredients li span {
+  font-style: italic;
+  color: #999;
+}
+
+#equipment li:nth-child(3) {
+  color: red;
+}
