@@ -12,10 +12,13 @@ div {
 
 li {
   font-family: 'Roboto';
+  font-weight: 900;
+  color:darkblue;
 }
 
 #ingredients li {
   font-family: Roboto;
+  font-size: 30px;
 }
 
 #ingredients li span {
